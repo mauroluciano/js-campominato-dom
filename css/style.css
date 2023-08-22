@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(150, 15, 15);
+  color: white;
+}
+
+.table {
+  width: 800px;
+}
+
+li {
+  list-style: none;
+  width: calc(100% / 10);
+  height: 100%;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  font-size: large;
+}
+
+.yellow {
+  background-color: rgb(207, 207, 20);
+  color: black;
+}

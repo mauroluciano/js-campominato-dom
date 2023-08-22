@@ -1,0 +1,14 @@
+# Traccia
+
+L'utente clicca su un bottone che genererà una griglia di gioco quadrata.
+Ogni cella ha un numero progressivo, da 1 a 100.
+Ci saranno quindi 10 caselle per ognuna delle 10 righe.
+Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed emetto un messaggio in console con il numero della cella cliccata.
+
+## Svolgimento
+
+- creo un pulsante da far cliccare all'utente
+- creo una lista di numeri da 1 a 100
+- al click comparirà una tabella da 10x10
+- quando l'utente clicca una singola cella divente colorata
+- una volta cliccata e colorata si genera un messaggio in consolle
