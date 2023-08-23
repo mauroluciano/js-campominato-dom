@@ -1,6 +1,12 @@
+//  questo comando indica il pulsante con id "generate-grid"
 let button = document.getElementById("generate-grid");
+
+//  aggiungere una funzione al pulsante, in questo caso click
 button.addEventListener("click", function () {
+  //  la constante cellsContainer viene riportata nel documento con l'id "cells-container"
   const cellsContainer = document.getElementById("cells-container");
+
+  //  la constante totalCell genera una griglia 10x10
   const totalCell = 10 * 10;
 
   // nella costante bomb c'è un array
@@ -18,12 +24,19 @@ button.addEventListener("click", function () {
 
   //- creo una lista di numeri da 1 a 100
   for (let i = 1; i <= totalCell; i++) {
+    // comando per aggiungere l'elemento "li" in html
     const cell = document.createElement("li");
+
+    // scrive nella constante cell il numero da 1 a 100
     cell.innerText = i;
+
+    // aggiungere una classe, in questo caso "cell"
     cell.classList.add("cell");
+
+    // aggiungere una classe, in questo caso "cell"
     cellsContainer.append(cell);
 
-    //- creo una lista di numeri da 1 a 100
+    //  aggiungere una funzione al pulsante, in questo caso al click deve mettere in funzione la classe "yellow"
     cell.addEventListener("click", function () {
       cell.classList.add("yellow");
 
