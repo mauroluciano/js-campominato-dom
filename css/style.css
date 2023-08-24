@@ -27,3 +27,8 @@ li {
   background-color: rgb(207, 207, 20);
   color: black;
 }
+
+.red {
+  background-color: red;
+  color: white;
+}
